@@ -1,41 +1,23 @@
+[![make.fun · news-image-20261120](https://make.fun/badge/news-image-20261120.svg)](https://make.fun/bounty/news-image-20261120?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261120)
+[![rank](https://make.fun/badge/news-image-20261120/basesium/news-image-20261120/rank.svg)](https://make.fun/bounty/news-image-20261120/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261120)
+[![reward](https://make.fun/badge/news-image-20261120/basesium/news-image-20261120/reward.svg)](https://make.fun/bounty/news-image-20261120?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261120)
+
 # The World — 20 November 2026
 
-A single-image summary of the world's news on 20 November 2026, drawn as a
-newspaper front page titled THE WORLD. One picture, one day, the stories that
-mattered most. Every headline sits in the paper's own layout, so the whole day
-can be read at a glance.
+A single-image summary of the world's news on 20 November 2026, drawn as the front page of a newspaper called THE WORLD. One glance carries the whole day: the wars, the rulings, the markets and the disasters that defined it.
 
 ## What's inside
 
-The front page covers the biggest stories of the day:
-
-- Russian missiles falling in Poland, and NATO's response to the breach.
-- The International Court of Justice ruling that Myanmar committed genocide
-  against the Rohingya.
-- The Trump–Xi–Putin peace declaration signed in Shenzhen.
-- The S&P 500 falling 3.7% into correction territory.
-- A 6.7-magnitude earthquake striking Peru.
+- Russian missiles fall in Poland, and NATO answers with a stern warning.
+- The International Court of Justice rules that Myanmar committed genocide against the Rohingya.
+- Trump, Xi and Putin sign a peace declaration in Shenzhen.
+- The S&P 500 drops 3.7% and slides into correction territory.
+- A 6.7-magnitude earthquake shakes Peru.
 
 ## How to run
 
-Run the program with:
+Run the program with python3 main.py. It copies entry.png into an /output directory, creating the folder first when it is missing.
 
-```sh
-python3 main.py
-```
+The entry image is entry.png, 1024x1024.
 
-It copies `entry.png` into an `/output` directory, creating the directory
-first if it does not exist. The copy is byte-exact.
-
-## The entry image
-
-The entry image is `entry.png`, 1024x1024 pixels.
-
-## Bounty
-
-Built for the make.fun bounty "Sum up 20 November's world news in one image":
-https://make.fun/c/news-image-20261120
-
-## License
-
-MIT License.
+License: MIT.
